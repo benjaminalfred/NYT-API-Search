@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </head>
+  <body>
+      <div class = "container-fluid">
+          <div class = "jumbotron" id="logo" style="text-align:center">
+          
+            </div>
+            <div class="container">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <b>Search Parameters</b></div>
+                        <hr>
+                        <div class = "panel-body">
+                    <form>
+                        <div class="form-group">
+                         <label for="searchTerm">Search Term</label>
+                            <input type="search" class="form-control" id="searchTerm" placeholder="Search Term">
+                        </div>
+ 
+                        <div class="form-group">
+                            <label for="exampleSelect1">Number of Records to Retrieve:</label>
+                            <select class="form-control" id="records">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                            </select>
+                          </div>
+
+                    <div class="form-group">
+                            <label for="exampleInputPassword1">Start Year (Optional)</label>
+                            <input type="search" class="form-control" id="startYear" placeholder="Start Year">
+                          </div>
+                          <div class="form-group">
+                                <label for="exampleInputPassword1">End Year (Optional)</label>
+                                <input type="search" class="form-control" id="endYear" placeholder="End Year">
+                              </div>
+                              <button type="submit" id="submit" class="btn btn-dark">Submit</button>
+                              <input class="btn btn-dark" type="reset" value="Reset">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <br>
+    <div class = "container">
+        <div class="panel-heading">
+            Results
+        </div>
+        <hr>
+
+         <div class="panel-body" id="results">
+            <p></p>
+         </div>
+    </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
