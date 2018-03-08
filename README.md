@@ -1,1 +1,1 @@
-# NYT-API-Search-
+# NYT-API-Search
